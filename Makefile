@@ -1,6 +1,6 @@
 CFLAGS := -O1 -g
 
-slist_test: slist_test.o slist.o
+slist_test: slist_test.o slist.o prng.o
 	gcc -o $@ $^
 
 prng_test: randomness_test.o prng.o
