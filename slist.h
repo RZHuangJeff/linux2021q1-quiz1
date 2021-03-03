@@ -25,4 +25,10 @@ void list_free(node_t **list);
  */
 void quicksort(node_t **list);
 
+/* 
+ * Sort the elements of list in acensing order,
+ * with none recursive quicksort.
+ */
+void nr_quicksort(node_t **list);
+
 #endif // QUIZ1_SLIST_H
